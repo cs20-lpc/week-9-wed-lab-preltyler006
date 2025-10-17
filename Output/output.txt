@@ -1,0 +1,14 @@
+empty=true len=0
+front: error, queue is empty
+back: error, queue is empty
+front=10 back=30 len=3
+front=20 back=30 len=2
+front=20 back=50 len=4 full=true
+enqueue: error, queue is full
+copy front=20 back=50 len=4
+r front=30 back=99 len=4
+q front=20 back=50 len=4
+s front=a back=b len=2
+s front=b back=c len=2
+q cleared empty=true len=0
+dequeue: error, queue is empty
